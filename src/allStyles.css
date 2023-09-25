@@ -1,0 +1,47 @@
+.side_nav {
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 3rem;
+    box-shadow: 0 4px 6px -1px rgba(243, 40, 40, 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    height: 90vh;
+    border-bottom-right-radius: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.side_nav_img img {
+    object-fit: contain;
+}
+
+.side_nav .side_nav_dash_outer .side_nav_dash_container {
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    cursor: pointer;
+}
+.side_nav .side_nav_dash_outer .side_nav_dash_container h4{
+    font-weight: normal;
+}
+.side_nav .side_nav_dash_outer .side_nav_dash_container .svg_cont {
+    margin-right: 8px;
+}
+
+.side_nav_dash_outer {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+    margin-left: 0;
+}
+
+.side_nav .side_nav_dash_outer .side_nav_dash_container:hover{
+    background: #159df8;
+    border-radius: 8rem;
+    overflow: hidden;
+    color: white;
+}
