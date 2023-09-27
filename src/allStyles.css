@@ -287,10 +287,6 @@ a {
     font-weight: 500;
 }
 
-.right_3 {
-    /* display: flex; */
-}
-
 .right_3 p {
     position: absolute;
     font-size: 1.1rem;
@@ -308,18 +304,62 @@ a {
     margin: 0 .3rem;
 }
 
-.pie_chart{
+.pie_chart {
     background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(from 230deg,
-        #40a8c4 0,
-        #40a8c4 10%,
-        #bcdbdf 0,
-        #bcdbdf 25%,
-        #235784 0,
-        #235784 100%
-        );
+            #40a8c4 0,
+            #40a8c4 10%,
+            #bcdbdf 0,
+            #bcdbdf 25%,
+            #235784 0,
+            #235784 100%);
     min-width: 13rem;
     min-height: 17rem;
     position: absolute;
     right: 14rem;
     margin-right: 1rem;
+}
+
+.right_4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 10rem;
+    width: 29%;
+}
+
+.right_arrow {
+    position: absolute;
+    fill: white;
+    right: 27.5rem;
+    top: 3rem;
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50%;
+    background: rgb(64, 149, 202);
+    background: linear-gradient(90deg, rgba(64, 149, 202, 1) 0%, rgba(22, 205, 228, 1) 67%, rgba(9, 153, 153, 1) 100%);
+}
+
+
+.analytics-table {
+    position: absolute;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem;
+}
+
+.header-cell {
+    /* text-align:start; */
+    font-weight: bold;
+    background-color: rgb(200, 200, 200);
+}
+
+.analytics-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.analytics-table td {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
 }
