@@ -1,8 +1,18 @@
-# React + Vite
+# Vils.ai test repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Improvements that can be done:
+- Make the design responsive.
+- Use tailwindcss  or a css pre-processor for better code maintainanc.
+
+
+## Installation
+```bash
+git clone https://github.com/utk145/vils-test.git
+cd vils-test
+npm i
+npm run dev
+
+```
