@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 220px;
-    gap: 3rem;
+    gap: 2rem;
     box-shadow: 0 4px 6px -1px rgba(243, 40, 40, 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     height: 90vh;
     border-bottom-right-radius: 3rem;
@@ -25,9 +25,8 @@
     text-align: left;
     cursor: pointer;
 }
-.side_nav .side_nav_dash_outer .side_nav_dash_container h4{
-    font-weight: normal;
-}
+
+
 .side_nav .side_nav_dash_outer .side_nav_dash_container .svg_cont {
     margin-right: 8px;
 }
@@ -39,9 +38,217 @@
     margin-left: 0;
 }
 
-.side_nav .side_nav_dash_outer .side_nav_dash_container:hover{
+.side_nav .side_nav_dash_outer .side_nav_dash_container:hover {
     background: #159df8;
     border-radius: 8rem;
     overflow: hidden;
     color: white;
 }
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.app {
+    display: flex;
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 2rem;
+    width: calc(70% - 220px);
+    margin-top: 1rem;
+}
+
+.mid_up {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-bottom: 2px solid #159df8;
+    border-right: 2px solid #159df8;
+    height: 100%;
+    margin: 0;
+}
+
+.mid_up_1>h2,
+.mid_down>h2 {
+    font-weight: 500;
+}
+
+.mid_up_2 {
+    display: flex;
+    gap: 3rem;
+    margin-left: 20%;
+    margin-top: 3rem;
+}
+
+.mid_up_2_wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mid_up .mid_up_2 .mid_up_2_wrap .span_ht {
+    height: 1rem;
+    width: 3rem;
+}
+
+.mid_up .mid_up_2 .mid_up_2_wrap .span_ht.gol {
+    background: #dca11d;
+}
+
+.mid_up .mid_up_2 .mid_up_2_wrap .span_ht.re {
+    background: #e26161;
+}
+
+.mid_up .mid_up_2 .mid_up_2_wrap .span_ht.bl {
+    background: #1c99eb;
+}
+
+.mid_down {
+    margin: 1rem 0;
+    border-right: 2px solid #159df8;
+}
+
+.mid_down_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mid_down_1_i {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.mid_down_1_i_a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle_container {
+    height: 7rem;
+    width: 7rem;
+    margin: 0.4rem 1rem 1rem 0.2rem;
+    display: grid;
+    place-items: center;
+}
+
+.value_container {
+    position: relative;
+    font-size: 1.7rem;
+    z-index: 1;
+}
+
+.circle_1 {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: #159df8; */
+    background: #84c1ea linear-gradient(to right, transparent 50%, #159df8 0);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.circle_1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.circle_1::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.circle_1::before {
+    background: #84c1ea;
+    transform: rotate(calc((var(--i) - 0) * 0.01 * 360)deg);
+}
+
+
+
+.circle_2 {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: #159df8; */
+    background: #94e1bc linear-gradient(to right, transparent 50%, #02bc62 0);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.circle_2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.circle_2::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.circle_2::before {
+    background: #94e1bc;
+    transform: rotate(calc((var(--i) - 0) * 0.01 * 360)deg);
+}
+
+
+.circle_3 {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: #159df8; */
+    background: #f7b0b0 linear-gradient(to right, transparent 50%, #e26161 0);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.circle_3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.circle_3::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.circle_3::before {
+    background: #f68282;
+    transform: rotate(calc((var(--i) - 0) * 0.01 * 360)deg);
+}
+

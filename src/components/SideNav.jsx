@@ -11,43 +11,43 @@ const SideNav = () => {
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/laptop-metrics--v1.png" alt="laptop-metrics--v1" />
           </div>
-          <h4>Dashboard</h4>
+          <a href="#">Dashboard</a>
         </div>
         <div className="side_nav_dash_container">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/classroom.png" alt="classroom" />
           </div>
-          <h4>1 on 1 Mentor</h4>
+          <a href="#">1 on 1 Mentor</a>
         </div>
         <div className="side_nav_dash_container">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/bot.png" alt="bot" />
           </div>
-          <h4>Mock Interviews</h4>
+          <a href='#'>Mock Interviews</a>
         </div>
         <div className="side_nav_dash_container">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/color/48/rehearse.png" alt="rehearse" />
           </div>
-          <h4>Practice</h4>
+          <a>Practice</a>
         </div>
         <div className="side_nav_dash_container">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/open-book--v1.png" alt="open-book--v1" />
           </div>
-          <h4>Communication</h4>
+          <a href="#">Communication</a>
         </div>
         <div className="side_nav_dash_container active">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/pie-chart-report.png" alt="pie-chart-report" />
           </div>
-          <h4>Reports</h4>
+          <a>Reports</a>
         </div>
         <div className="side_nav_dash_container">
           <div className="svg_cont">
             <img width="25" height="25" src="https://img.icons8.com/ios/50/gear.png" alt="gear" />
           </div>
-          <h4>Settings</h4>
+          <a href="#">Settings</a>
         </div>
       </div>
       
