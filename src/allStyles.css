@@ -57,7 +57,7 @@ a {
 .mid {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    margin: 2rem;
+    margin-left: 2rem;
     width: calc(70% - 220px);
     margin-top: 1rem;
 }
@@ -108,7 +108,7 @@ a {
 }
 
 .mid_down {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     border-right: 2px solid #159df8;
 }
 
@@ -252,3 +252,74 @@ a {
     transform: rotate(calc((var(--i) - 0) * 0.01 * 360)deg);
 }
 
+.right {
+    margin-top: 1rem;
+    width: calc(32%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.right_1 {
+    height: 4rem;
+    background: #bae2fd;
+    border-bottom: 2px solid #159df8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.right_2 {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.right_2 p:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.right_2 p:nth-child(2) {
+    font-weight: 500;
+}
+
+.right_3 {
+    /* display: flex; */
+}
+
+.right_3 p {
+    position: absolute;
+    font-size: 1.1rem;
+    right: 1rem;
+    text-align: right;
+    top: 20rem;
+}
+
+.right_3 span::after {
+    content: "";
+    display: inline-block;
+    width: 3rem;
+    height: 1rem;
+    background: currentColor;
+    margin: 0 .3rem;
+}
+
+.pie_chart{
+    background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(from 230deg,
+        #40a8c4 0,
+        #40a8c4 10%,
+        #bcdbdf 0,
+        #bcdbdf 25%,
+        #235784 0,
+        #235784 100%
+        );
+    min-width: 13rem;
+    min-height: 17rem;
+    position: absolute;
+    right: 14rem;
+    margin-right: 1rem;
+}
