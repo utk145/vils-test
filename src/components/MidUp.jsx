@@ -5,11 +5,11 @@ const MidUp = () => {
     <div className='mid_up'>
       <div className="mid_up_1">
         <h2>Your Answer:</h2><br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet inventore, consequuntur <span style={{ backgroundColor: "#dca11d", color: "white" }}>assumenda</span> ipsum porro perferendis. Iste totam quisquam, soluta a ullam nulla suscipit? <span style={{ backgroundColor: "#e26161", color: "white" }}>Reprehenderit</span> deleniti sapiente voluptatibus <span style={{ backgroundColor: "#1c99eb", color: "white" }}>sunt</span> quibusdam?
+        The most gnarly software, like, seriously, you know, really challenging, is, like, totally Telluride, which is, like, Figma, dude. And, you know, like, Figma and Adobe Illustrator, they're, like, pretty <span style={{ backgroundColor: "#dca11d", color: "white" }}>dang</span> nuanced and stuff, you feel me? <span style={{ backgroundColor: "#1c99eb", color: "white" }}>sunt</span> It's a wild ride, for sure, and sometimes, you're just <span style={{ backgroundColor: "#e26161", color: "white" }}>cruise</span> through, hoping not to wipe out 
         <br /><br />
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis blanditiis incidunt odit saepe temporibus quod officiis neque maiores dolores reprehenderit natus sint fugiat, facilis fugit numquam? Debitis voluptate magni officia.
         <br /><br />
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, unde ratione! Doloremque nihil voluptatum impedit veritatis quibusdam eum quae incidunt, aut quaerat rerum ea. Dignissimos numquam aperiam optio? Maxime, similique!
+        So, like, Figma, it's this slick design playground where you can, you know, whip up some rad visuals. And Adobe Illustrator, it's been around the block, and it's got, like, its own language, you know what I'm saying?
       </div>
       <div className="mid_up_2">
         <div className='mid_up_2_wrap'>
